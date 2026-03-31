@@ -1,0 +1,66 @@
+title: "AI Agents — The Complete Guide"
+description: "From Zero to Agent Developer: Understanding, Building, and Deploying AI Agents & Agentic Workflows"
+baseurl: "/agents"
+url: "https://karam-nus.github.io"
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: false
+
+include:
+  - README.md
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "01 — What Are Agents?"
+    url: "/01_what_are_agents"
+  - title: "02 — History & Evolution"
+    url: "/02_history_and_evolution"
+  - title: "03 — Anatomy of an Agent"
+    url: "/03_anatomy_of_an_agent"
+  - title: "04 — The Agent Loop"
+    url: "/04_the_agent_loop"
+  - title: "05 — Tools & Function Calling"
+    url: "/05_tools_and_function_calling"
+  - title: "06 — Memory Systems"
+    url: "/06_memory_systems"
+  - title: "07 — Planning & Reasoning"
+    url: "/07_planning_and_reasoning"
+  - title: "08 — Multi-Agent Systems"
+    url: "/08_multi_agent_systems"
+  - title: "09 — Agentic Frameworks"
+    url: "/09_agentic_frameworks"
+  - title: "10 — Build Your First Agent"
+    url: "/10_build_your_first_agent"
+  - title: "11 — Agentic Design Patterns"
+    url: "/11_agentic_design_patterns"
+  - title: "12 — Deployment & Production"
+    url: "/12_deployment_and_production"
+  - title: "13 — Open Source Landscape"
+    url: "/13_open_source_landscape"
+  - title: "14 — Career Guide"
+    url: "/14_career_guide"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
